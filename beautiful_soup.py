@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 # Let's go to example.com first
 result = requests.get("http://www.example.com")
 print(result.text)  # or do something with the response
-
+print("test commmand")
 
 type(result)
 
